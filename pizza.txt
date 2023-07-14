@@ -1,0 +1,4 @@
+Name of the customer is{r}
+Total bill of {r}
+pizza is {y}
+Toppings is {t}
