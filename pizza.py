@@ -12,15 +12,16 @@ types_of_pizza={
     "BBQ Chicken pizza":750,
     "hawaiian pizza":900
 }
+
 for key,value in types_of_pizza.items():
     print(key,value)
 sum=0
 while True:
-    y=input("Enter the type of pizza: ")
+    y=input("Enter the type of pizza: \n")
     break
 sum+=types_of_pizza[y]
 
-print(f"Which toppings do you want to add in the pizza {r}?")
+print(f"Which toppings do you want to add in the pizza {r}?\n")
 
 Toppings={
           "mushroom":350,
@@ -33,8 +34,10 @@ Toppings={
 for key,value in Toppings.items():
     print(key,value)
 while True:
-    t=input("Enter the toppings:")
+    t=input("Enter the toppings:\n")
     break
+
+
 sum_topping=Toppings[t]
 Total=sum+sum_topping
 print(f"Your total bill is {Total}")
@@ -42,12 +45,10 @@ print(f"Your ordered pizza:{y}")
 print(f"Your ordered topping is {t}")
 print(f"Thank you {r}.")
 
-
-
 pizza=open("pizza.txt",'w+')
-pizza.write("Name of the customer is{r}\n")
-pizza.write("Total bill of {r}\n")
-pizza.write("pizza is {y}\n")
-pizza.write("Toppings is {t}")
+pizza.write(f"Name of the customer is {r}\n")
+pizza.write(f"Total bill of {r}\n")
+pizza.write(f"pizza is {y}\n")
+pizza.write(f"Toppings is {t}")
 print(pizza)
 pizza.close()
