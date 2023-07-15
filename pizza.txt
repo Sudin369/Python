@@ -1,4 +1,4 @@
-Name of the customer is Sudin
-Total bill of Sudin
-pizza is veggie pizza
+Name of the customer is sudin
+Total bill of sudin is 1350
+pizza is hawaiian pizza
 Toppings is Sausage

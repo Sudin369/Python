@@ -47,7 +47,7 @@ print(f"Thank you {r}.")
 
 pizza=open("pizza.txt",'w+')
 pizza.write(f"Name of the customer is {r}\n")
-pizza.write(f"Total bill of {r}\n")
+pizza.write(f"Total bill of {r} is {Total}\n")
 pizza.write(f"pizza is {y}\n")
 pizza.write(f"Toppings is {t}")
 print(pizza)
